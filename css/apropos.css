@@ -1,0 +1,62 @@
+#apropos_cover{
+    width: 100%;
+    height: 900px;
+    background-image: url('../assets/images/imgapropos/cover.JPG');
+    background-size: contain;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#apropos_cover div{
+    border: 1px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+#apropos_cover div:hover{
+    background-color:#EF5A31;
+    color: #222;
+}
+#photo_boss{
+    background-color: #222;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    border: 10px solid #EF5A31;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.text_design{
+    width: 900px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+#text_design{
+    width: 100%;
+}
+#apropos_content{
+    padding: 20px;
+}
+.membre_photo{
+    background-color: #222;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #EF5A31;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.membre h4{
+    color: white;
+    width: 200px;
+    box-sizing: border-box;
+}
+.membre {
+    width: 200px;
+    box-sizing: border-box;
+}
